@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.customerMain_Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" layoutX="216.0" layoutY="-17.0" prefHeight="121.0" prefWidth="185.0" text="BUYTOPIA" textAlignment="CENTER" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bell MT" size="33.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="189.0" layoutY="11.0" prefHeight="65.0" prefWidth="222.0" text="Shop, Smile, Repeat" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="buyProductButton" layoutX="248.0" layoutY="136.0" mnemonicParsing="false" onAction="#handlebuyProductButton" prefHeight="25.0" prefWidth="107.0" text="Buy Products" />
+      <Button fx:id="rateProductButton" layoutX="249.0" layoutY="181.0" mnemonicParsing="false" onAction="#handlerateProductButton" prefHeight="25.0" prefWidth="107.0" text="Rate Product" />
+      <Button fx:id="hireTechnicianButton" layoutX="247.0" layoutY="260.0" mnemonicParsing="false" onAction="#handlehireTechnicianButton" prefHeight="25.0" prefWidth="107.0" text="Hire Technician" />
+      <Button fx:id="rateTechnicianButton" layoutX="247.0" layoutY="301.0" mnemonicParsing="false" onAction="#handlerateTechnicianButton" prefHeight="25.0" prefWidth="107.0" text="Rate Service" />
+      <Button fx:id="backButton" layoutX="24.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Button fx:id="cancelOrderButton" layoutX="246.0" layoutY="222.0" mnemonicParsing="false" onAction="#handlecancelOrderButton" prefHeight="25.0" prefWidth="107.0" text="Cancel Order" />
+   </children>
+</Pane>

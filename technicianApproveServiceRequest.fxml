@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.technicianApproveServiceRequest_Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" layoutX="223.0" layoutY="-13.0" prefHeight="121.0" prefWidth="185.0" text="BUYTOPIA" textAlignment="CENTER" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bell MT" size="33.0" />
+         </font>
+      </Label>
+      <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="196.0" layoutY="15.0" prefHeight="65.0" prefWidth="222.0" text="Shop, Smile, Repeat" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="31.0" layoutY="48.0" mnemonicParsing="false" onAction="#handleBackButton" text="Back" />
+      <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="101.0" prefHeight="22.0" prefWidth="185.0" text="Accept Service Request" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="list" layoutX="31.0" layoutY="130.0" prefHeight="160.0" prefWidth="538.0" />
+      <Button fx:id="acceptButton" layoutX="275.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleacceptButtonclick" prefHeight="25.0" prefWidth="63.0" text="Accept" />
+      <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="196.0" layoutY="328.0" prefHeight="18.0" prefWidth="222.0" text="Click the order to accept." textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessage" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="303.0" prefHeight="25.0" prefWidth="294.0" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
